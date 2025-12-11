@@ -16,3 +16,14 @@ function solution(arr) {
         times++;
     }
 }
+// function gcd(a, b) { // 최대 공약수
+//     return b === 0 ? a : gcd(b, a % b);
+// }
+
+// function lcm(a, b) { // 최대 공배수
+//     return (a * b) / gcd(a, b);
+// }
+
+// function solution(arr) {
+//     return arr.reduce((acc, cur) => lcm(acc, cur));
+// }
