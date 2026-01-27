@@ -1,5 +1,7 @@
+import java.lang.Math;
+
 class Solution {
     public int solution(int n) {
-       return (n + 6) / 7;
+       return (int) Math.ceil((double) n / 7);
     }
 }
